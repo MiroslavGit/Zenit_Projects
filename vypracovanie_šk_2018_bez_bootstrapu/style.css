@@ -1,0 +1,286 @@
+/* --------------------------- */
+
+
+/* Celý dokument */
+
+
+/* --------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.075em;
+    color: #151515;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+
+/* --------------------------- */
+
+
+/* Hlavička */
+
+
+/* --------------------------- */
+
+header {
+    background-color: #3A3939;
+    padding: 1rem;
+}
+
+nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+}
+
+.menu a {
+    color: #F3F3F3;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.menu .active {
+    color: #FB8754;
+}
+
+.menu a:hover {
+    color: #FB8754;
+}
+
+.socialne_siete {
+    padding-right: 90px;
+}
+
+.socialne_siete img {
+    border: 1px solid #F3F3F3;
+    margin-left: 10px;
+    padding: 4px;
+}
+
+.socialne_siete img:hover {
+    border: 1px solid #FB8754;
+    cursor: pointer;
+}
+
+
+/* --------------------------- */
+
+
+/* Päta */
+
+
+/* --------------------------- */
+
+footer {
+    background-color: #3A3939;
+    padding: 1rem;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    color: #F3F3F3;
+    align-items: center;
+    margin-top: -4px;
+    position: relative;
+}
+
+footer .vstrede {
+    text-align: center;
+}
+
+footer .vpravo {
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+footer div p {
+    color: #F3F3F3;
+}
+
+.odkaz_päta:hover {
+    color: #FB8754;
+    text-decoration: underline;
+}
+
+
+/* --------------------------- */
+
+
+/* Obsah */
+
+
+/* --------------------------- */
+
+
+/* Main 1 */
+
+.main {
+    position: relative;
+}
+
+.main img {
+    width: 100%;
+}
+
+.obsah_na_fotke {
+    max-width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    left: 27%;
+}
+
+.nadpis,
+.citat {
+    color: #F3F3F3;
+}
+
+.nadpis {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.citat {
+    font-size: 1.3rem;
+}
+
+.tlacidla {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.main button {
+    border: 3px solid #F3F3F3;
+    text-align: center;
+    padding: 1rem 5rem 1rem;
+    background-color: transparent;
+    color: #F3F3F3;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.main button:hover {
+    color: #337AB7;
+    border: 3px solid #337AB7;
+}
+
+
+/* Main 2 */
+
+
+/* Prve 2 bloky */
+
+.text-obrazok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.obsah {
+    width: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.uzsi-obsah {
+    width: 550px;
+    padding-top: 2rem;
+    margin-left: 6rem;
+}
+
+.meno {
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+}
+
+.narodenie {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.umrtie {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.pribeh1 {
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+.pribeh2 {
+    text-align: justify;
+}
+
+.foto {
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+.foto img {
+    height: 360px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.bibliografia {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+
+/* Druhe 2 bloky */
+
+.diela {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.diela .prvaBi p {
+    margin-bottom: 0.6rem;
+}
+
+.diela .druhaBi p {
+    margin-bottom: 0.6rem;
+}
+
+.diela .prvaBi {
+    width: 640px;
+    padding-left: 6rem;
+}
+
+.diela .druhaBi {
+    width: 640px;
+    margin-left: -5rem;
+}
+
+
+/* Main 3*/
