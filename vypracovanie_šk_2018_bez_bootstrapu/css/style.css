@@ -133,7 +133,7 @@ footer div p {
 /* --------------------------- */
 
 
-/* Main 1 */
+/* Main 1 index.html */
 
 .main {
     position: relative;
@@ -189,7 +189,7 @@ footer div p {
 }
 
 
-/* Main 2 */
+/* Main 2 autor.html */
 
 
 /* Prve 2 bloky */
@@ -283,4 +283,67 @@ footer div p {
 }
 
 
-/* Main 3*/
+/* Main 3 knihy.php*/
+
+.books {
+    display: flex;
+}
+
+.foto-books {
+    padding: 4rem 2rem 4rem 9rem;
+}
+
+.foto-books img {
+    height: 400px;
+    width: 250px;
+}
+
+.info-books {
+    padding: 4rem 2rem 2rem 0rem;
+    margin-right: 6%;
+}
+
+.info-books h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.info-books .public {
+    font-size: smaller;
+    color: rgb(99, 97, 97);
+    margin-bottom: 25px;
+}
+
+.info-books .text {
+    margin-bottom: 30px;
+}
+
+.kupa {
+    display: flex;
+    margin-left: 40%;
+}
+
+.info-books .price {
+    font-size: 2rem;
+}
+
+.info-books .price {
+    padding-right: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.button_kupit {
+    border: 3px solid #151515;
+    text-align: center;
+    padding: 1rem 5rem 1rem;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.button_kupit:hover {
+    color: #337AB7;
+    border: 3px solid #337AB7;
+}
