@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krajské kolo 2018</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?<?php echo time(); ?>">
 
 </head>
 
@@ -21,8 +21,8 @@
     </header>
 
     <div class="uvod">
-        <div>
-            <img src="../obrazky/pozadie-uvod.jpg" alt="uvod" title="uvod">
+        <div class="img">
+
         </div>
         <div class="obsah_na_fotke">
             <img src="../obrazky/logo.png" alt="uvod" title="uvod">
@@ -53,6 +53,31 @@
         </div>
     </div>
 
+    <div class="nasa_praca">
+        <h1 class="praca_nadpis">NAŠA PRÁCA</h1>
+        <hr class="praca_ciara">
+        <p class="praca_popis">
+            Zbierka veteránov, ktoré sme renovovali s láskou
+        </p>
+        <div class="praca_grid">
+
+            <div class="grid1">
+                <div class="grid1_1">
+                    <img src="../obrazky/foto/foto005.jpg" class="ob" alt="uvod" title="uvod">
+                    <img src="../obrazky/foto/foto004-nahlad.jpg" class="ob" alt="uvod" title="uvod">
+                </div>
+                <div class="grid1_2">
+                    <img src="../obrazky/foto/foto001.jpg" class="ob" alt="uvod" title="auto">
+                </div>
+            </div>
+
+            <div class="grid2">
+                <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+                <img src="../obrazky/foto/foto002.jpg" class="ob" alt="uvod" title="uvod">
+
+            </div>
+        </div>
+    </div>
 
 
     <footer>

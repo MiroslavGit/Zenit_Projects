@@ -19,9 +19,10 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 1200px;
     background: #2E2D2D;
     height: 3.5rem;
+    /*  position: fixed; */
 }
 
 nav {
@@ -91,8 +92,14 @@ footer div p {
     justify-content: center;
 }
 
-.uvod img {
+.img {
     width: 100%;
+    height: 100vh;
+    background-image: url("../obrazky/pozadie-uvod.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .obsah_na_fotke {
@@ -130,7 +137,7 @@ footer div p {
 /* -------------------------------- */
 
 .sluzby {
-    background-color: #2E3536;
+    background-image: url("../obrazky/pozadie-sluzby.jpg");
     color: #FFFFFF;
 }
 
@@ -157,4 +164,80 @@ footer div p {
 
 .title_sluzby {
     padding: 1.8rem 0 1.8rem 0;
+}
+
+
+/* -------------------------------- */
+
+
+/* Nasa praca */
+
+
+/* -------------------------------- */
+
+.nasa_praca {
+    margin-bottom: 5rem;
+}
+
+.praca_nadpis {
+    padding: 4rem 0 1rem 0;
+}
+
+.praca_ciara {
+    width: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.praca_popis {
+    margin-bottom: 2rem;
+}
+
+.praca_grid {
+    display: flex;
+}
+
+.grid1 {
+    width: 60%;
+}
+
+.grid1_1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.grid1_1 img {
+    width: 45%;
+    padding: 0.2rem;
+}
+
+.grid1_2 {
+    text-align: right;
+}
+
+.grid1_2 img {
+    width: 90%;
+    margin-right: 5px;
+}
+
+.grid2 {
+    width: 40%;
+    text-align: left;
+    height: 660px;
+}
+
+.grid2 img {
+    width: 90%;
+    padding: 0.2rem;
+    height: 50%;
+}
+
+.ob {
+    transition: 2s ease-out;
+}
+
+.ob:hover {
+    filter: grayscale();
+    transition: 2s ease-in;
 }
