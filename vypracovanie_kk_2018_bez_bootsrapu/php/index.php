@@ -1,3 +1,23 @@
+<?php
+/*
+    include_once 'database.php'; 
+
+    $db = mysqli_select_db($conn,"zen_har");
+
+    $sql = mysqli_query($conn,"SELECT * FROM zen_har ");
+    
+    while($row = mysqli_fetch_array($sql)){
+        $names[] = $row['Názov'];
+        $text[] = $row['Text'];
+        $images[] = $row['Obrázok'];
+        $publicDate[] = $row['Dátum_vytvorenia_knihy'];
+        $price[] = $row['Cena'];    
+    }
+    */
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,6 +84,7 @@
             <div class="grid1">
                 <div class="grid1_1">
                     <img src="../obrazky/foto/foto005.jpg" class="ob" alt="uvod" title="uvod">
+                    <div></div>
                     <img src="../obrazky/foto/foto004-nahlad.jpg" class="ob" alt="uvod" title="uvod">
                 </div>
                 <div class="grid1_2">
@@ -76,6 +97,63 @@
                 <img src="../obrazky/foto/foto002.jpg" class="ob" alt="uvod" title="uvod">
 
             </div>
+        </div>
+    </div>
+
+
+    <div class="rezervacka">
+        <h1 class="rezervacka_nadpis">REZERVAČKA</h1>
+        <hr class="rezervacka_ciara">
+        <div class="rezervacka_konkretna">
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+            <div class="rezervacka_info">
+                <h1 class="rezervacka_nazov"> Generálna oprava</h1>
+                <p class="rezervacka_cena">
+                    1 hod / 1300€
+                </p>
+                <button> REZERVOVAŤ </button>
+            </div>
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+
+        </div>
+
+        <div class="rezervacka_konkretna">
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+            <div class="rezervacka_info">
+                <h1 class="rezervacka_nazov"> Generálna oprava</h1>
+                <p class="rezervacka_cena">
+                    1 hod / 1300€
+                </p>
+                <button> REZERVOVAŤ </button>
+            </div>
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+
+        </div>
+
+        <div class="rezervacka_konkretna">
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+            <div class="rezervacka_info">
+                <h1 class="rezervacka_nazov"> Generálna oprava</h1>
+                <p class="rezervacka_cena">
+                    1 hod / 1300€
+                </p>
+                <button> REZERVOVAŤ </button>
+            </div>
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+
+        </div>
+
+        <div class="rezervacka_konkretna">
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+            <div class="rezervacka_info">
+                <h1 class="rezervacka_nazov"> Generálna oprava</h1>
+                <p class="rezervacka_cena">
+                    1 hod / 1300€
+                </p>
+                <button> REZERVOVAŤ </button>
+            </div>
+            <img src="../obrazky/foto/foto003.jpg" class="ob" alt="uvod" title="uvod">
+
         </div>
     </div>
 

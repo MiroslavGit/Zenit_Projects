@@ -181,6 +181,7 @@ footer div p {
 
 .praca_nadpis {
     padding: 4rem 0 1rem 0;
+    color: #2E2D2D;
 }
 
 .praca_ciara {
@@ -188,10 +189,12 @@ footer div p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+    border: 2px solid black;
 }
 
 .praca_popis {
     margin-bottom: 2rem;
+    color: #2E2D2D;
 }
 
 .praca_grid {
@@ -240,4 +243,77 @@ footer div p {
 .ob:hover {
     filter: grayscale();
     transition: 2s ease-in;
+}
+
+
+/* -------------------------------- */
+
+
+/* Rezervačka */
+
+
+/* -------------------------------- */
+
+.rezervacka {
+    background-image: url("../obrazky/pozadie-rezervacka.jpg");
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.rezervacka_nadpis {
+    color: #FFFFFF;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.rezervacka_ciara {
+    width: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    height: 2px;
+}
+
+.rezervacka_konkretna {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.4rem;
+}
+
+.rezervacka_konkretna img {
+    width: 300px;
+    border: 2px solid #2E3536;
+}
+
+.rezervacka_info {
+    width: 25%;
+    background-image: url("../obrazky/pozadie-sluzby.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 3.5%;
+}
+
+.rezervacka_nazov {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.rezervacka_cena {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.rezervacka_info button {
+    padding: 0.6rem;
+    background-color: #D0D1D1;
+    border: none;
+    color: #2E2D2D;
+}
+
+.rezervacka_info button:hover {
+    background-color: #2E2D2D;
+    color: #D0D1D1;
 }
