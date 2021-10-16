@@ -316,6 +316,7 @@ footer div p {
     background-color: #D0D1D1;
     border: none;
     color: #2E2D2D;
+    font-weight: 600;
 }
 
 .rezervacka_info button:hover {
@@ -355,6 +356,28 @@ footer div p {
     right: 10px;
     top: 10px;
     font-size: 25px;
+}
+
+.modal-popis {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.form-riadok {
+    display: flex;
+}
+
+.form-riadok label {
+    width: 30%;
+}
+
+.form-riadok input {
+    width: 70% !important;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
 }
 
 

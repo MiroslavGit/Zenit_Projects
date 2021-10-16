@@ -2,7 +2,7 @@ CREATE database zen_har;
 
 
 CREATE TABLE sluzby(
-    ID INT NOT NULL auto_increment,
+    ID INT(11) NOT NULL auto_increment,
     sluzba VARCHAR (64) NOT NULL,
     obrazok VARCHAR (128) NOT NULL,
     popis text NOT NULL,
@@ -25,8 +25,6 @@ razitko TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 
-INSERT INTO rezervacky(id, typ_sluzby, datum_rezervacie, meno, kontakt, stav, cas) VALUES 
-('1','oprava','2018-11-19','Tamara Melicharová','tamara.melicharova@zenit.sk','prijatá'),
 INSERT INTO rezervacky(id, typ_sluzby, datum_rezervacie, meno, kontakt, stav, cas) VALUES 
 ('1','oprava','2018-11-19','Tamara Melicharová','tamara.melicharova@zenit.sk','prijatá'),
 ('2','čalúnenie','2018-11-20','Roman Vild','roman.v@zenit.sk','schválená'),
